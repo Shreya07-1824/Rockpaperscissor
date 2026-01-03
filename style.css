@@ -1,0 +1,132 @@
+*{
+    margin:0;
+    padding:0;
+    border:border-box;
+}
+.bod{
+    background-color:#590d22;;
+
+}
+.header{
+    text-shadow:2px 2px black;
+    font-weight:bold;
+    background-color:#ffb3c1;
+    color:#590d22;
+    font-size:2rem;
+    height:5rem;
+    width:100%;
+    line-height: 5rem;
+    text-align:center;
+    border-bottom:2px solid black;
+}
+.header2{
+    height:50px;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+}
+.head3,.head4{
+    color:white;
+    margin-top:30px;
+    height:50px;
+    width:300px;
+    text-align:center;
+    font-weight:bold;
+    line-height:50px;
+    border-radius:4px;
+    font-size:2rem;
+}
+.header1{
+    margin-top:20px;
+    height:100px;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+
+}
+.head1,.head2{
+    font-size:1.5rem;
+    height:50px;
+    width:300px;
+    background-color: #e4778b;
+    text-align:center;
+    font-weight:bold;
+    color:white;
+    line-height:50px;
+    border-radius:20px;
+    border:2px solid #590d22;
+}
+.boxes{
+    
+    height:400px;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+.box{
+    height:200px;
+    width:200px;
+    border:2px solid black;
+    border-radius: 50%;
+    margin-bottom:40px;
+}
+.box img{
+    height:200px;
+    width:200px;
+    object-fit: cover;
+    border-radius: 50%;
+
+
+
+}
+
+
+
+.score{
+    height:100px;
+    width:100%;
+    font-weight:bold;
+     margin-top:10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    gap:15px;
+}
+#user-score,#comp-score{
+    
+    font-size:2rem;
+}
+.user,.comp{
+    margin-bottom:100px; 
+    border-radius:7px;
+    width:150px;
+    border:2px solid #590d22;
+    text-align:center;
+    background-color: #ffb3c1;
+    
+
+}
+.msg{
+    border:2px solid #590d22;
+    border-radius:8px;
+    margin-left:450px;
+    height:5rem;
+    width:40%;
+    text-align: center;
+    line-height: 5rem;
+    background-color:#ff4d6d;
+    font-size:2rem;
+    color:white;
+    font-weight:bold;
+}
+.box:hover{
+    border:4px solid black;
+}
+
